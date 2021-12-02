@@ -55,6 +55,7 @@ func main() {
 	position_p2 := PositionP2{
 		horizontal: 0,
 		depth:      0,
+		aim:        0,
 	}
 
 	scanner := bufio.NewScanner(file)
