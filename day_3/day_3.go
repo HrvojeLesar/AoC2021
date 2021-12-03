@@ -56,9 +56,7 @@ func part_2(rows []string, count []uint32) {
 	or := get_oxygen_rating(rows, count)
 	csr := get_co2_scrubber_rating(rows, count)
 
-	// ovo je retarderano kak ima biti ali neznam kaj se dogodi kaj prvoga poziva hiti fkrej
 	or_val := string_to_number(&or)
-	or_val = string_to_number(&or)
 	csr_val := string_to_number(&csr)
 
 	fmt.Printf("Part 2: %d\n", or_val*csr_val)
