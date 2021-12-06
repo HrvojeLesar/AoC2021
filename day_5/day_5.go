@@ -44,6 +44,9 @@ func main() {
 		row := scanner.Text()
 		vent_lines = append(vent_lines, parse_row(&row))
 	}
+
+	file.Close()
+
 	part_1(&vent_lines)
 	part_2(&vent_lines)
 }
