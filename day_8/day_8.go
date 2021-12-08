@@ -50,7 +50,7 @@ func part_1(output_values string) int {
 
 func part_2(input []string) uint64 {
 	// 0: top, 1: left, 2: right
-	// 3: sredina
+	// 3: middle
 	// 4: left, 5: right, 6: down
 	var positions [7]rune
 	uniques := strings.Split(input[0], " ")
